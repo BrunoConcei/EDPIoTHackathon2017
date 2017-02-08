@@ -30,7 +30,7 @@ To get there coming from the N6-1 road, you should use the eastern entrance, as 
 ![EDP Starter HQ](images/mapa_edp_starter.png)
 
 
-**NOTE**: Please fill this [Doodle]() to let us know when you're coming to EDP Starter HQ. You must give your name to the security at the entrance. At least one mentor will be present everyday thoughout the 2 weeks at EDP Starter to welcome you in. 
+**WARNING**: Please fill this [Doodle](http://doodle.com/poll/y4upguc6wvfen4ih) to let us know when you're coming to EDP Starter HQ. You must give your name to the security at the entrance. At least one mentor will be present everyday thoughout the 2 weeks at EDP Starter to welcome you in. 
 
 ### **1.4** **Mentors & Contacts**
 For any questions regarding the EDP IoT Hackathon please visit the [website](http://edpiothackathon.edp.pt) and use the contact link in the footer.
@@ -38,6 +38,7 @@ For any questions regarding the EDP IoT Hackathon please visit the [website](htt
 Remember, you can contact [EDP IoT Hackathon Mentors](edpstarter@edp.pt) through EDP Starter's email. We will try to answer as soon as possible to your questions.
 
 Some of the mentors will be present at EDP Starter throughout all **working days** of the EDP IoT Hackathon. Feel free to interact with them and ask any questions you may have.
+
 
 ### **1.4** **Website**
 
