@@ -21,7 +21,6 @@ Every team will have access to one EDP IoT Hackathon Kit. This kit has inside:
 * **Two** **10K Ohm Resistors**
 * **One IC MAX485**
 * **Jump Wires**
-* **One RJ12 connector**
 * **One Microsoft Azure pass**
 
 For the connection between the Akeru board and the EB you will need a circuit to convert RS-485 (from the EB) to [TTL 5V](https://en.wikipedia.org/wiki/Transistor%E2%80%93transistor_logic) (from the Akeru board) so we can correctly send and receive messages through the [Modbus Protocol](hardware-intermediate-eb.md#modbus-protocol).

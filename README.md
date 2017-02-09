@@ -5,9 +5,20 @@
 
 Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.pt/)
 
+## **UPDATES** ##
+
+**February 9**: 
+
+- We have sent the Sigfox account registration email to all the participating teams. Check your inbox and access https://backend.sigfox.com !
+
+- Some teams only gave us one email. In those cases, we've included "Write" capabilites on the Sigfox backend to the given email in order to add his teammates.
+
+- Any question please refer to our edpstarter@edp.pt email.
+
 ## **1.** **Useful information**
 Below you can find some useful insights about the challenge. Please refer to the Hackathon 
 Documentation for more technical questions.
+
 
 ### **1.2** **Agenda**
 
@@ -35,7 +46,7 @@ To get there coming from the N6-1 road, you should use the eastern entrance, as 
 ### **1.4** **Mentors & Contacts**
 For any questions regarding the EDP IoT Hackathon please visit the [website](http://edpiothackathon.edp.pt) and use the contact link in the footer.
 
-Remember, you can contact [EDP IoT Hackathon Mentors](edpstarter@edp.pt) through EDP Starter's email. We will try to answer as soon as possible to your questions.
+Remember, you can contact [EDP IoT Hackathon Mentors](https://edpiothackathon.edp.pt/Home/Mentors) through EDP Starter's email - **edpstarter@edp.pt** . We will try to answer as soon as possible to your questions.
 
 Some of the mentors will be present at EDP Starter throughout all **working days** of the EDP IoT Hackathon. Feel free to interact with them and ask any questions you may have.
 
@@ -106,6 +117,8 @@ Passes are limited to 1-month, $100, whichever comes first. Unlike the Azure Acc
 Azure passes are typically used for customer PoC’s, field and partner training events, marketing campaigns, and other events.  
 
 [Reedeem you Microsoft Azure Pass here](http://www.microsoftazurepass.com/)
+
+**NOTE:**If you need an extra Azure Pass just send us an email and we will send your team an extra code.
 
 ## **5. Hackathon Documentation**
 

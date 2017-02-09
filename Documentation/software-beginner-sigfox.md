@@ -17,7 +17,7 @@ The main factor that led to the choice of SIGFOX is related to the low energy co
 | Identity | Each device has a unique ID (NOT an IP); |
 | Ultra Narrow Band | Energy-efficient; Resistant to jamming; |
 | Spectrum | ISM free-to-use (ETSI 300-220); Forces 1% duty cycle; Base stations MUST comply as well;
-| Frequency | 828 MHz (Europe); 902 MHz (USA); |
+| Frequency | 868 MHz (Europe); 902 MHz (USA); |
 | Long Range & Protocols | 2-way communication with 162 dB path loss; |
 | Customer Payload | 12 byte messages with a MAXIMUM of 140 message per day in Europe (ETSI 300-220).|
 
