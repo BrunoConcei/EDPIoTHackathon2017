@@ -70,7 +70,7 @@ void loop()
     if (master.getState() == COM_IDLE)
     {
       u32wait = millis() + 2000;
-      edpComm.printRawData(au16data) //prints raw load profile data coming from the EB
+      edpComm.printRawData(au16data); //prints raw load profile data coming from the EB
       u8state =6; //goes to Sigfox sending option
     }
     break;

@@ -72,10 +72,19 @@ For the **Clock data type** we have a special structure:
 
 ### **4.** **Tariff Registers**
 
+**Values from Tariff 1-6 should be the same (10350 VA)**
+
 | Index | Description | Type | Unit| Scaler |
 |----------|----------|------|-----|--------|
 | 10| Activity Calendar - Active Name |Octet string|-|-|
 | 11| Current active tariff |Unsigned|-|-|
+| 12| Active demand control threshold T1 |Double Long Unsigned|VA|0|
+| 13| Active demand control threshold T2 |Double Long Unsigned|VA|0|
+| 14| Active demand control threshold T3 |Double Long Unsigned|VA|0|
+| 15| Active demand control threshold T4 |Double Long Unsigned|VA|0|
+| 16| Active demand control threshold T5 |Double Long Unsigned|VA|0|
+| 17| Active demand control threshold T6 |Double Long Unsigned|VA|0|
+
 
 
 **NOTE:** All indexes are decimal representations of hexadecimal values. If you use the **recommended libraries you only need to use the decimal values given above**.
