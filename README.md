@@ -7,6 +7,13 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ## **UPDATES** ##
 
+**February 10**: 
+
+- Fixed a bug on the EDPComm_example.ino code.
+
+- You can now create new callbacks on the Sigfox backend.
+
+
 **February 9**: 
 
 - We have sent the Sigfox account registration email to all the participating teams. Check your inbox and access https://backend.sigfox.com !

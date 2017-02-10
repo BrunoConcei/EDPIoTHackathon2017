@@ -63,7 +63,7 @@ For the **Clock data type** we have a special structure:
 | Index | Description | Type | Unit| Scaler |
 |----------|----------|------|-----|--------|
 | 108| Instantaneous Voltage L1|  Long unsigned|V|-1|
-| 109| Instantaneous Current L1|  Long unsigned|V|-1|
+| 109| Instantaneous Current L1|  Long unsigned|A|-1|
 | 121| Instantaneous Active power + (Sum of all phases)| Double long unsigned|W|0|
 | 122| Instantaneous Active power - (Sum of all phases)| Double long unsigned|W|0|
 | 123| Instantaneous Power factor| Long unsigned|-|-3|
