@@ -86,9 +86,22 @@ For the **Clock data type** we have a special structure:
 | 17| Active demand control threshold T6 |Double Long Unsigned|VA|0|
 
 
-
 **NOTE:** All indexes are decimal representations of hexadecimal values. If you use the **recommended libraries you only need to use the decimal values given above**.
 
+Example of the function for getting the Active Energy +A ( FCT_READSINGLEREGISTER ):
+
+Active Energy (+A) is a 4 bytes - Double Long Unsigned - registry. 
+This means that we will get our value in our dataArray[16] in the first two positions [0] and [1].
+
+```C++
+double EDPComm::getLiveTotalRegistriesValue(uint16_t dataArray[16])
+{
+	// Returns a live total value of 4 bytes (ex: A+_Total)
+	double regValue_1half = dataArray[1];
+	double regValue_2half = (dataArray[0])*0x10000; // 2 bytes can store (0x10000 - 1) numbers.
+	return regValue_1half + regValue_2half; 
+}
+````
 
 ### **5. Load Profile**
 
@@ -114,12 +127,18 @@ The default data coming from the load profile array is as follows:
 * **Clock - Clock Status and AMR profile status** (1 byte)
 * **Active energy (+A) inc.** (4 bytes)
 
+Using the given Modbus library this means that the dataArray with 16 positions (each with 2 bytes) will have the values in the following manner:
+    - [0] Year (2 bytes)
+    - From [1] to [6] Clock structure (9 bytes)
+    - From [6] to [8] Active Energy (+A) (4 bytes)
+
+Check the [source code](../src/EDPComm-Hackathon-2017/EDPComm.cpp) of the EDPComm library to know exactly how to get these values out of the dataArray. We have built specific functions to get all the elements of the Load Profile Data.
+
+
 The [EDPComm](hardware-intermediate-eb-comm.md#edp-comm) library has specific functions to get the load profile from the EBs. 
 You should analyze the code example very carefully as it has some differences for the **FCT_READSINGLEREGISTER** in terms of input parameters.
 
 ## **Advise:** You should carefully analyze the source code
-
-
 
 ---
 Go to the [Hardware Advanced Documentation](hardware-advanced.md)

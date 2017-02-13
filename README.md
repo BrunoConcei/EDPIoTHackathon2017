@@ -7,11 +7,35 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ## **UPDATES** ##
 
+---
+
+
+**February 13**: 
+
+- Wednesday, February 15th, the Microsoft DX team will be at UPTEC - Science and Technology Park of University of Porto after lunch. 
+
+    - Address: Rua Alfredo Allen, n.º455/461 4200-135 Porto
+
+    - If you're in the area, please feel free to reach them by writing us an email via edpstarter@edp.pt, João Almeida (joalmeid@microsoft.com) or Luis Calado (Luis.Calado@microsoft.com). 
+
+    - We will then contact you back with more info.
+
+
+- We will have two more EBs available for all teams: 1 in Porto and 1 in Coimbra. We're trying to have them ready as soon as possible. Email us for more info abou this.
+
+- We added some additional information on the [Registers](Documentation/hardware-intermediate-registers.md)
+
+**WARNING:** We still require all teams to come to EDP Starter HQ for the hardware checkpoint. This is due to possible differences between the setups in Porto/Coimbra and in Lisboa.
+
+---
+
 **February 10**: 
 
 - Fixed a bug on the EDPComm_example.ino code.
 
 - You can now create new callbacks on the Sigfox backend.
+
+---
 
 
 **February 9**: 
@@ -21,6 +45,8 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 - Some teams only gave us one email. In those cases, we've included "Write" capabilites on the Sigfox backend to the given email in order to add his teammates.
 
 - Any question please refer to our edpstarter@edp.pt email.
+
+----
 
 ## **1.** **Useful information**
 Below you can find some useful insights about the challenge. Please refer to the Hackathon 

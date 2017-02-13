@@ -126,8 +126,8 @@ double EDPComm::getLiveTotalRegistriesValue(uint16_t dataArray[16])
 
 double EDPComm::getLiveInstantValues(uint16_t dataArray[16])
 {
-	// Returns a live instantaneous value of 2 bytes(ex: Voltage)
-	// Note: Live Instantaneous Values have a scaler of -1
+	// Returns a live instantaneous value of 2 bytes(ex: Current and Voltage)
+	// Note: Live Instantaneous Values usually have a scaler of -1
 	double instValue = (dataArray[0]);
 	return instValue/10; 
 }
