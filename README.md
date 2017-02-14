@@ -9,6 +9,16 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ---
 
+**February 14**: 
+
+- Fixed some minor bugs
+
+- Added new [registries](Documentation/hardware-intermediate-registers.md): Disconnetor control state and active energy (+A) consumed by tariff
+
+- Example of a load profile is now more detailed
+
+
+---
 
 **February 13**: 
 

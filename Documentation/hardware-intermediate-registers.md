@@ -47,6 +47,7 @@ For the **Clock data type** we have a special structure:
 | 8| HAN interface - Access profile| Bit string [256]|-|-|
 | 9| Status control| Octet string|-|-|
 
+
 ### **2.** **Total Registers**
 
 | Index | Description | Type | Unit| Scaler |
@@ -72,7 +73,11 @@ For the **Clock data type** we have a special structure:
 
 ### **4.** **Tariff Registers**
 
-**Values from Tariff 1-6 should be the same (10350 VA)**
+ - Values from Active Damand Control Threshold Tariff 1-6 should be the same (10350 VA)
+
+ - T1 is "Vazio", T2 is "Ponta" and T3 is "Cheias"
+
+**T4 to T6 are not used**
 
 | Index | Description | Type | Unit| Scaler |
 |----------|----------|------|-----|--------|
@@ -84,11 +89,34 @@ For the **Clock data type** we have a special structure:
 | 15| Active demand control threshold T4 |Double Long Unsigned|VA|0|
 | 16| Active demand control threshold T5 |Double Long Unsigned|VA|0|
 | 17| Active demand control threshold T6 |Double Long Unsigned|VA|0|
+| 38| Rate 1 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+| 39| Rate 2 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+| 40| Rate 3 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+| 41| Rate 4 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+| 42| Rate 5 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+| 43| Rate 6 contract 1 active energy (+A) |Double Long Unsigned|Wh|0|
+
+
+### **5.** **Disconnector**
+
+The Disconnector Control State variable can be:
+
+- 0 when disconnected;
+- 1 when connected;
+- 2 when ready for reconnection 
+
+| Index | Description | Type | Unit| Scaler |
+|----------|----------|------|-----|--------|
+| 132| Disconnect Control State | Disconnect Control State |-|-|
+
 
 
 **NOTE:** All indexes are decimal representations of hexadecimal values. If you use the **recommended libraries you only need to use the decimal values given above**.
 
-Example of the function for getting the Active Energy +A ( FCT_READSINGLEREGISTER ):
+
+## Example of the function for getting the Active Energy +A:
+
+Using FCT_READSINGLEREGISTER
 
 Active Energy (+A) is a 4 bytes - Double Long Unsigned - registry. 
 This means that we will get our value in our dataArray[16] in the first two positions [0] and [1].
@@ -123,14 +151,20 @@ This load profile is synchronized with the time clock, i.e:
 The default data coming from the load profile array is as follows:
 
 * **Year** (2 bytes)
-* **Clock** (month, day of month, weekday, hour, minute, second, Hundredths of second and deviation) (9 bytes)
+* **Clock** (month, day of month, weekday, hour, minute, second, Hundredths of second and deviation) (7 bytes)
 * **Clock - Clock Status and AMR profile status** (1 byte)
 * **Active energy (+A) inc.** (4 bytes)
 
 Using the given Modbus library this means that the dataArray with 16 positions (each with 2 bytes) will have the values in the following manner:
-    - [0] Year (2 bytes)
-    - From [1] to [6] Clock structure (9 bytes)
-    - From [6] to [8] Active Energy (+A) (4 bytes)
+    - [0] Year 
+    - [1] Month/ Day of Month
+	- [2] Weekday/ Hour
+	- [3] Hour/ minutes
+	- [4] Seconds/ Hundreths of Second
+	- [5] Deviation/ Clock Status
+	- [6] AMR Status/ Active Energy +A
+    - [7] Active Energy +A
+	- [8] Active Energy +A/ {EMPTY}
 
 Check the [source code](../src/EDPComm-Hackathon-2017/EDPComm.cpp) of the EDPComm library to know exactly how to get these values out of the dataArray. We have built specific functions to get all the elements of the Load Profile Data.
 
