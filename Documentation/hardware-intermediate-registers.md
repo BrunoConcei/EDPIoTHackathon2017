@@ -1,7 +1,6 @@
 # **Registers**
 
 
-
 ## **Registers Introduction**
 
 The information available through the EB's HAN interface is described in the following tables of this subsection.
@@ -73,7 +72,7 @@ For the **Clock data type** we have a special structure:
 
 ### **4.** **Tariff Registers**
 
- - Values from Active Damand Control Threshold Tariff 1-6 should be the same (10350 VA)
+ - Values from Active Demand Control Threshold Tariff 1-6 should be the same (10350 VA)
 
  - T1 is "Vazio", T2 is "Ponta" and T3 is "Cheias"
 
@@ -156,6 +155,7 @@ The default data coming from the load profile array is as follows:
 * **Active energy (+A) inc.** (4 bytes)
 
 Using the given Modbus library this means that the dataArray with 16 positions (each with 2 bytes) will have the values in the following manner:
+
     - [0] Year 
     - [1] Month/ Day of Month
 	- [2] Weekday/ Hour
