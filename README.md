@@ -7,13 +7,21 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ## **UPDATES** ##
 
+**February 16 - CHECKPOINT DAY**: 
+
+- We've added some extra information regarding the A & B connector pins.
+
+- Today is the last day to present your Hardware solution plans.
+
+- Check your inbox! We have some questions for you about the presentation day (24th Feb)
+
 ---
 
 **February 15**: 
 
 **ADVISE:** You should not only read this documentation but also the EDPComm source code (.cpp) in order to fully understand what the example does.
 
-**CHECKPOINT WARNING** Until Friday, 17 February all teams are required to do a small hardware checkpoint with the mentors. If you can't go to EDP STARTER please email us!
+**CHECKPOINT WARNING:** Until Friday, 17 February all teams are required to do a small hardware checkpoint with the mentors. If you can't go to EDP STARTER please email us!
 
 ---
 
@@ -21,7 +29,7 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 - Fixed some minor bugs
 
-- Added new [registries](Documentation/hardware-intermediate-registers.md): Disconnetor control state and active energy (+A) consumed by tariff
+- Added new [registers](Documentation/hardware-intermediate-registers.md): Disconnetor control state and active energy (+A) consumed by tariff
 
 - Example of a load profile is now more detailed
 

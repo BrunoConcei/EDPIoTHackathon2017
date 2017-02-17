@@ -62,6 +62,13 @@ The RJ-12 socket pin-out is available as follows:
 
 **Note:** The EDP Box must have an internal line termination resistor of at least 120Ω between A and B, and the interface should be able to supply current up to 150mA through the +5 VDC pin and GND.
 
+**Note:** For the Hackathon, the available pins are:
+
+     - PIN = 1 [GND]
+     - PIN = 3 [B]
+     - PIN = 5 [A]
+     - PIN = 6 [+5 VDC]
+
 ---
 Go to the [EDP Box Communication Libraries](hardware-intermediate-eb-comm.md)
 
