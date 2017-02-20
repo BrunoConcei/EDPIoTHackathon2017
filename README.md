@@ -7,6 +7,25 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ## **UPDATES** ##
 
+---
+
+**February 20**: 
+
+- As we enter "Software Week", we'll have 2 Microsoft mentors every day until Friday at EDP Starter to help you:
+    
+    - Luis Calado on Tuesday (21 Feb) and Thursday (23 Feb) morning;
+    - João Almeida on Monday (20 Feb), Wednesday afternoon (22 Feb) and Thursday (23 Feb) afternoon
+
+**FINAL PRESENTATION DAY:**
+    
+- We're getting everything ready for the final presentation day. Each team will have enough time to make a quick live demo and their pitch. You'll be able to allocate that time as you want.
+
+- We will send you an email with a more detailed schedule as soon as possible.
+
+-  2 EBs will be available at the stage to every team to use.
+
+---
+
 **February 16 - CHECKPOINT DAY**: 
 
 - We've added some extra information regarding the A & B connector pins.
