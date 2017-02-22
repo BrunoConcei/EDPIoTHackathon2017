@@ -11,7 +11,13 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 - As we have one English-speaking jury, **ALL presentations MUST be in English**.
     
-- Each team will have 8 minutes to present their solution. We highly recommend **4 minutes for the Pitch** and **4 minutes** for the Live Demo.
+- Each team will have 8 minutes to present their solution. We highly recommend **4 minutes for the Pitch** and **4 minutes** for the Live Demo. 
+
+- Your presentation should always start with the **Live Demo first**.
+
+- During the pitch you can use slides to complement your speech.
+
+- The Live Demo is an hands-on showcase of your solution (no slides are needed). 
 
 - We will have EBs available for you to test during the live demo.
     
@@ -25,12 +31,11 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
     - How are you visualing and manipulating your data with Microsoft Azure?
 
-    - Did you do something "out-of-box"? Tell us!
+    - Did you do something "out-of-the-box"? Tell us!
 
 - Check the [Kick-off presentation](Presentations/) for more insights!
 
 - Do you need something specific for your presentation? Write us an email edpstarter@edp.pt to let us know that.
-
 
 
 ---
