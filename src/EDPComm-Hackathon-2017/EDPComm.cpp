@@ -89,12 +89,13 @@ int EDPComm::getClockStatus(uint16_t dataArray[16]){
 	 return clockStatus;
 }
 
-int EDPComm::getLoadProfileData(uint16_t dataArray[16]){
+double EDPComm::getLoadProfileData(uint16_t dataArray[16]){
 	/*this function returns the last load profile data considering the default load profile structure with a variable size of 4 bytes
 	*/
-	 int profileValue_1half= (((dataArray[6]<<8)&0xFF00) | ((dataArray[7]>>8)&0xFF))*0x10000; 
-     int profileValue_2half= ((dataArray[7]<<8)&0xFF00) | ((dataArray[8]>>8)&0xFF);
-	 int totalValue = profileValue_1half+profileValue_2half;
+	 double profileValue_1half= (((dataArray[6]<<8)&0xFF00) | ((dataArray[7]>>8)&0xFF))*0x10000; 
+     double profileValue_2half= ((dataArray[7]<<8)&0xFF00) | ((dataArray[8]>>8)&0xFF);
+	 
+	 double totalValue = profileValue_1half+profileValue_2half;
 	 
 	return totalValue;         
 }
@@ -121,6 +122,7 @@ double EDPComm::getLiveTotalRegistriesValue(uint16_t dataArray[16])
 	// Returns a live total value of 4 bytes (ex: A+_Total)
 	double regValue_1half = dataArray[1];
 	double regValue_2half = (dataArray[0])*0x10000;
+
 	return regValue_1half + regValue_2half; 
 }
 

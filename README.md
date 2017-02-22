@@ -7,6 +7,32 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
 
 ## **UPDATES** ##
 
+**FINAL PRESENTATION DAY:**
+
+- As we have one English-speaking jury, **ALL presentations MUST be in English**.
+    
+- Each team will have 8 minutes to present their solution. We highly recommend **4 minutes for the Pitch** and **4 minutes** for the Live Demo.
+
+- We will have EBs available for you to test during the live demo.
+    
+- Remember to focus on some key points during your Pitch & Live Demo:
+        
+    - What makes your solution an MLP - "Minimum Loveable Product"?
+
+    - How did you treat the data coming from the EB?
+
+    - How did you overcome the payload limit & message threshold per day?
+
+    - How are you visualing and manipulating your data with Microsoft Azure?
+
+    - Did you do something "out-of-box"? Tell us!
+
+- Check the [Kick-off presentation](Presentations/) for more insights!
+
+- Do you need something specific for your presentation? Write us an email edpstarter@edp.pt to let us know that.
+
+
+
 ---
 
 **February 20**: 
@@ -15,14 +41,6 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
     
     - Luis Calado on Tuesday (21 Feb) and Thursday (23 Feb) morning;
     - João Almeida on Monday (20 Feb), Wednesday afternoon (22 Feb) and Thursday (23 Feb) afternoon
-
-**FINAL PRESENTATION DAY:**
-    
-- We're getting everything ready for the final presentation day. Each team will have enough time to make a quick live demo and their pitch. You'll be able to allocate that time as you want.
-
-- We will send you an email with a more detailed schedule as soon as possible.
-
--  2 EBs will be available at the stage to every team to use.
 
 ---
 
