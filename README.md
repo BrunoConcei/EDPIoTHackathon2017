@@ -13,7 +13,7 @@ Official repository of the [EDP IoT Hackathon 2017](http://edpiothackathon.edp.p
     
 - Each team will have 8 minutes to present their solution. We highly recommend **4 minutes for the Pitch** and **4 minutes** for the Live Demo. 
 
-- Your presentation should always start with the **Live Demo first**.
+- You can choose whether to start with the pitch or with the live demo. Just warn us of the order!
 
 - During the pitch you can use slides to complement your speech.
 
